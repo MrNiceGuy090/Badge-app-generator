@@ -21,15 +21,15 @@ In the top left corner there are 4 fields. These indicate the coordonates that m
 The first 2 indicate the top-right corner and the last 2 indicate the bottom-left corner.
 
 There are 6 lines index from 1 to 6. Each of those represent a label to be written on the badge and has the following options:
-  - width min: the leftmost point where can the label start
-  - width max: the rightmost point where can the label end
+  - width min: the leftmost point where the label can start
+  - width max: the rightmost point where the label can end
   - height: the position ,from top to bottom, where the label will be
   - font size: the label font size 
   - font name: the name of the label's font
   !!Important!! 
       The font file has to be added in the application folder
    - cmyk color: the color of the label in cmyk format. The default is white
-   - text-align: the alignment of the text within the given width min and width max variables. The default is left and can be changed with center and right.
+   - text-align: the alignment of the text within the given width min and width max variables. The default is left and can be changed to center and right.
    - see button: this button registrate the changes made and display/update the label in the left preview window
    
 The number of labels field indicates how many labels are to be written on the badge.
